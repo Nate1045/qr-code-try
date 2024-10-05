@@ -1,0 +1,54 @@
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qr {
+    object-fit:cover;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom:20px;
+    width: 370px;
+}
+
+.logo {
+    right: 450px;
+    bottom: 271px;
+    position: relative;
+}
+body {
+    background-color: #d5e1ef;
+    font-family: Outfit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.QR-code-layout {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    padding: 50px;
+    position: relative;
+    top: 20px;
+    margin: 0 2em;
+}
+
+ p {
+    color: #68778d;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 4px;
+}
+h3 {
+    color: #1f314f;
+    font-weight: 700;
+}
