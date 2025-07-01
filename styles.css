@@ -1,54 +1,49 @@
-* , *::before , *::after {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+*,*::after,*::before {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-.qr {
-    object-fit:cover;
-    height: 500px;
-    border-radius: 10px;
-    margin-bottom:20px;
-    width: 370px;
-}
-
-.logo {
-    right: 450px;
-    bottom: 271px;
-    position: relative;
-}
 body {
-    background-color: #d5e1ef;
-    font-family: Outfit;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", serif;
+}
+main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-.QR-code-layout {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
+.qr-card {
+    width: 20rem;
+    height: 31.1875rem;
+    padding: 1rem 1rem 2.5rem 1rem;
     border-radius: 20px;
     background-color: white;
-    width: 400px;
-    height: 600px;
-    padding: 50px;
-    position: relative;
-    top: 20px;
-    margin: 0 2em;
+    margin-top: 9vh;
 }
 
- p {
-    color: #68778d;
-    margin-top: 8px;
-    font-weight: 400;
-    font-size: 15px;
-    padding: 4px;
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
 }
-h3 {
-    color: #1f314f;
+
+.visit {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+}
+
+.title {
+    color: hsl(218, 44%, 22%);
     font-weight: 700;
+    padding-bottom: 1rem;
+    font-size: 22px;
+}
+
+.yap {
+    padding: 0 1rem 0 1rem;
+    margin-top: 1.5rem;
+    height: 8.375rem;
+    text-align: center;
 }
